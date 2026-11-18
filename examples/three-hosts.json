@@ -1,0 +1,120 @@
+{
+ "hosts": [
+  {
+   "name": "a",
+   "ncpu": 10,
+   "mem_mb": 16384,
+   "non_fleet_cores": 2.0
+  },
+  {
+   "name": "b",
+   "ncpu": 12,
+   "mem_mb": 32768,
+   "non_fleet_cores": 3.0
+  },
+  {
+   "name": "c",
+   "ncpu": 6,
+   "mem_mb": 8192,
+   "non_fleet_cores": 1.0
+  }
+ ],
+ "jobs": [
+  {
+   "id": "j1",
+   "class": "build",
+   "arrive_s": 0,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j2",
+   "class": "light",
+   "arrive_s": 8,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  },
+  {
+   "id": "j3",
+   "class": "build",
+   "arrive_s": 16,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j4",
+   "class": "light",
+   "arrive_s": 24,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  },
+  {
+   "id": "j5",
+   "class": "build",
+   "arrive_s": 32,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j6",
+   "class": "light",
+   "arrive_s": 40,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  },
+  {
+   "id": "j7",
+   "class": "build",
+   "arrive_s": 48,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j8",
+   "class": "light",
+   "arrive_s": 56,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  },
+  {
+   "id": "j9",
+   "class": "build",
+   "arrive_s": 64,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j10",
+   "class": "light",
+   "arrive_s": 72,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  },
+  {
+   "id": "j11",
+   "class": "build",
+   "arrive_s": 80,
+   "peak_cores": 5,
+   "ramp_s": 120,
+   "run_s": 500
+  },
+  {
+   "id": "j12",
+   "class": "light",
+   "arrive_s": 88,
+   "peak_cores": 1,
+   "ramp_s": 30,
+   "run_s": 200
+  }
+ ]
+}
