@@ -2,6 +2,8 @@
 
 Admit jobs onto a host by what they will need at their peak, not by how busy the host is right now.
 
+Write-up: [Admission by reservation, not instantaneous load](https://unlicensedthought.com/writing/admission-by-reservation-not-instantaneous-load/)
+
 ## The problem
 
 A scheduler that looks at current load before it starts a job has a hole in it. A job that's just
